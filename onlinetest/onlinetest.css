@@ -1,0 +1,165 @@
+.start
+{
+    text-align: center;
+    line-height: 100px;
+    background-color: #4682B4;
+    color: 	#ffffff;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    height: 100px;
+}
+#login
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: 	#778899;
+    width: 600px; 
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    background: #F7F7F7;
+}
+#nolog
+{
+    text-align: center;
+    position: absolute;
+    color: #778899;
+    left: 600px;
+    top: 360px;
+}
+#register
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: 	#778899;
+    width: 600px; 
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    background: #F7F7F7;
+}
+.tip
+{
+    font-size: 15px;
+    color: #4682B4;
+}
+#welcome
+{
+    font-size: 50px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #4e5964;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+#intro
+{
+    font-size: 20px;
+    color: #4e5964;
+    background-color: rgba(70, 131, 180, 0.109);
+    border-radius: 10px;
+    position: absolute;
+    left: 350px;
+    top: 220px;
+}
+#question
+{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    width: 800px;
+    font-size: 20px;
+    color: #4e5964;
+    background: #F7F7F7;
+}
+#snake
+{
+    position: absolute;
+    left: 370px;
+    top: 400px;
+    height: 230px;
+}
+#restip
+{
+    color: #4e5964;
+    font-size: 50px;
+    position: absolute;
+    left: 500px;
+}
+table
+{
+    border-collapse: collapse;
+}
+table, td, th
+{
+    border: 1px solid #778899;
+}
+#histab
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: 	#778899;
+    width: 600px; 
+    position: absolute;
+    left: 500px;
+    top: 280px;
+    background: #F7F7F7;
+}
+#histit
+{
+    position: absolute;
+    top: 180px;
+    left: 650px;
+    font-size: 40px;
+    font-family:  Georgia, serif;
+    color: #778899;
+    text-shadow: 2px 2px #c7d0da;
+}
+#rectime
+{
+    position: absolute;
+    top: 500px;
+    left: 46px;
+    color: #4e5964;
+    background-color: rgba(70, 131, 180, 0.109);
+    font-size: 20px;
+    font-family: Georgia, serif;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+#cost
+{
+    background-color: rgba(138, 184, 221, 0.445);
+}
+.subbutton
+{
+    border: none;
+    background-color: rgb(122, 169, 211);
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    font-family: Georgia, serif;
+    color: #ffffff;
+    text-align: center;
+}
+.err
+{
+    font-size: 40px;
+    font-family: Georgia, serif;
+    color: #be2424;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+select
+{
+    background-color: #ffffff;
+    color: #4e5964;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+}

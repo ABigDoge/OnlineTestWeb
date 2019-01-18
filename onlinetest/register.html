@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>新用户注册</title>
+        <link rel='stylesheet' href='onlinetest.css' type='text/css'>  
+    </head>
+    <body>
+        <div class='start'>新用户注册</div>
+        <form id='register' action="register.php" method="POST" >
+            <fieldset>
+                <legend>注册账号</legend>
+                用户名：<input type='text' name='username' maxlength="10"><br>
+                <p class='tip'>用户名不得超过十个字符且不能是纯数字</p>
+                密码：<input type='password' name='password' maxlength="15"><br>
+                <p class='tip'>密码不得超过十五个字符</p>
+                确认密码：<input type='password' name='cpassword' maxlength="15"><br>
+                性别：<input type='radio' name='sex' value='female'>女
+                     <input type='radio' name='sex' value='male'>男<br>
+                学院：<select name="school">
+                        <option value="cs">计算机学院</option>
+                        <option value="dianxin">电子与信息学院</option>
+                        <option value="guangdian">光电学院</option>
+                        <option value="zidonghua">自动化学院</option>
+                    </select><br><br>
+                <input type='submit' value='注册' class='subbutton'>
+            </fieldset>
+        </form>
+    </body>
+</html>
